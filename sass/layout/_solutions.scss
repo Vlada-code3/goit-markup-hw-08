@@ -1,0 +1,148 @@
+
+.solutions-section {
+  padding: 60px 0px;
+    @media screen and (min-width: 768px){
+
+padding: 60px 15px;
+  }
+  @media screen and (min-width: 1200px) {
+   padding: 94px 0px;
+
+  }
+}
+
+.solutions-conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  color: #FFFFFF;
+  @media screen and (min-width: 480px){
+ max-width: 480px;
+}
+    @media screen and (min-width: 768px){
+
+max-width: 768px;
+
+  } 
+  @media screen and (min-width: 1200px){
+    max-width: 1200px;
+    display: flex;
+  }
+}
+   
+  
+
+.solutions-list {
+  @media screen and (min-width: 480px){
+ display: block;
+}
+     @media screen and (min-width: 768px){
+ display: flex;
+  flex-wrap: wrap;
+  
+}
+@media screen and (min-width: 1200px){
+ display: flex;
+  
+}
+}
+
+.solutions-title {
+  display: block;
+  text-align: center;
+  @media screen and (min-width: 768px){
+display: none;
+
+}
+@media screen and (min-width: 1200px){
+  display: none;
+}
+}
+.solution-block {
+  &:not(:nth-child(4n)) {
+    margin-bottom: 30px;
+  }
+  width: 100%;
+  &::before {
+    display: flex;
+    content: '';
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.solution-block {
+  @media screen and (min-width: 768px){
+display: block;
+width: 354px;
+
+&:not(:nth-child(2n)) {
+    margin-right: 30px;
+}
+  }
+ @media screen and (min-width: 1200px){
+width: 270px;
+&:not(:nth-child(4n)) {
+    margin-right: 30px}
+
+ }
+}
+
+
+.antenna {
+  &::before {
+    background-image: url("./image/symbol-defs.svg#icon-phone");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.solution-block.antenna {
+  &::before {
+    background-image: url("../image/antenna.svg");
+  }
+}
+.solution-block.clock {
+  &::before {
+    background-image: url("../image/clock.svg");
+  }
+}
+.solution-block.diagram {
+  &::before {
+    background-image: url("../image/diagram.svg");
+  }
+}
+.solution-block.astronaut {
+  &::before {
+    background-image: url("../image/astronaut.svg");
+  }
+}
+.title {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-title-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+@media screen and (min-width: 768px) {
+  text-align: left;
+}
+}
+
+.par-text-solution {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
