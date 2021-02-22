@@ -5,6 +5,9 @@
   background: #ffffff;
   display: flex;
   justify-content: center;
+@media screen and (min-width: 480px){
+  margin-top: 60px;
+  }
   @media screen and (min-width: 768px){
     
   padding-bottom: 60px;
@@ -16,24 +19,24 @@
   display: flex;
   }
 }
-.conteinet-clients {
-  max-width: 320px;
-   padding-left: 15px;
-   padding-right: 15px;
-   padding-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-    @media screen and (min-width: 480px){
-    max-width: 480px;
-  }
-  @media screen and (min-width: 768px){
-    max-width: 768px;
-  }  
-  @media screen and (min-width: 1200px) {
-    max-width: 1200px;
-    padding-top: 0px;
-  }
-}
+// .conteinet-clients {
+//   max-width: 320px;
+//    padding-left: 15px;
+//    padding-right: 15px;
+//    padding-top: 60px;
+//   margin-left: auto;
+//   margin-right: auto;
+//     @media screen and (min-width: 480px){
+//     max-width: 480px;
+//   }
+//   @media screen and (min-width: 768px){
+//     max-width: 768px;
+//   }  
+//   @media screen and (min-width: 1200px) {
+//     max-width: 1200px;
+//     padding-top: 0px;
+//   }
+// }
 
 
 .clients-list {
@@ -41,9 +44,14 @@
   flex-wrap: wrap;
   // justify-content: center;
   // align-items: center;
+  justify-content: center;
+  //  @media screen and (min-width: 480px){
+  //    margin-right: not ;
+  //  }
   @media screen and (min-width: 768px){
     justify-content: space-around;
     flex-direction: row;
+
   }  
   @media screen and (min-width: 1200px)  {
     justify-content: center;
@@ -56,7 +64,6 @@
   font-weight: 700;
   text-align: center;
   margin: 0;
-  // 
   margin-bottom: 30px;
   @media screen and (min-width: 768px){
  margin-bottom: 60px;
@@ -71,14 +78,19 @@ margin-bottom: 50px;
   width: 210px;
   height: 90px;
   margin-bottom: 30px;
-  &:not(:nth-child(2n)) {
-    margin-right: 30px;
+  // &:not(:nth-child(2n)) {
+  //   margin-right: 30px;
     
-  }
+  // }
   svg {
    
     height: 45px;
     fill: #AFB1B8;
+  }
+  @media screen and (min-width: 480px){
+    &:not(:nth-child(2n)) {
+   margin-right: 30px; 
+  }
   }
   @media screen and (min-width: 768px){
     width: 226px;

@@ -12,7 +12,18 @@
   opacity: 0;
   pointer-events: none;
 }
-
+.navigation__button {
+   &:hover {
+    svg {
+      fill: var(--accent-color );
+    }
+  }
+  &:focus {
+    svg {
+      fill: var(--accent-color );
+    }
+  }
+}
 .modal-burger {
   position: absolute;
   width: 480px;
@@ -41,6 +52,7 @@
   margin-left: auto;
   margin-top: 8px;
   margin-right: 8px;
+  border: none;
   &:hover {
     fill: var(--accent-color);
     .modal-close-icon {
@@ -68,10 +80,7 @@
     display: inline-block;
     transition: 250ms border-color cubic-bezier(0.4,0,0.2,1);
   }
-  &:hover {
-    a {
-    color: var(--accent-color );}
-  }
+  
 }
 .link-modal {
   font-family: Roboto;
@@ -82,6 +91,13 @@ line-height: 47px;
 text-align: center;
 letter-spacing: 0.02em;
 color: #212121;
+&:hover {  
+    color: var(--accent-color );
+  }
+  &:focus {
+    color: var(--accent-color );
+  }
+
 }
 .modal-nav-down {
   &:not(:last-child) {

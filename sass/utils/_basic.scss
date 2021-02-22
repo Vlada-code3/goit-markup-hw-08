@@ -7,6 +7,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+
 }
 a {
   text-decoration: none;
@@ -34,7 +35,7 @@ h3 {
 .link {
   &:hover {
     color: var(--accent-color );
-    transition: 250ms top cubic-bezier(0.4,0,0.2,1);
+    
   }
   &:focus {
     color: var(--accent-color );
@@ -48,9 +49,22 @@ h3 {
   color: #212121;
 }
 .conteiner {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   align-items: center;
+  @media screen and (min-width: 480px){
+max-width: 450px;
+padding-left: 0px;
+  padding-right: 0px;
+  }
+  @media screen and (min-width: 768px){
+max-width: 768px;
+  }
+  @media screen and (min-width: 1200px){
+min-width: 1200px;
+margin-left: 0;
+margin-right: 0;
+  }
 }
