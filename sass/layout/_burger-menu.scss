@@ -7,7 +7,10 @@
   background-color: rgba(0,0,0, 0.2);
   position: fixed;
 }
-
+.modal-test{
+  position: absolute;
+  bottom: 50px;
+}
 .is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -128,6 +131,7 @@ color: #757575;
   display: flex;
   margin-top: 64px;
   margin-bottom: 48px;
+  flex-wrap: wrap;
   li {
     padding-right: 10px;
     padding-left: 10px;
@@ -143,6 +147,12 @@ font-size: 18px;
 line-height: 22px;
 letter-spacing: 0.02em;
 color: #2196F3;
+  }
+  @media screen and (min-width:480px) {
+    flex-wrap: nowrap;
+  }
+  @media screen and (min-width:480px) {
+    flex-wrap: nowrap;
   }
 }
 
