@@ -22,7 +22,8 @@ padding: 60px 15px;
  max-width: 480px;
 }
     @media screen and (min-width: 768px){
-
+ padding-left: 0px;
+  padding-right: 0px;
 max-width: 768px;
 
   } 
@@ -84,6 +85,7 @@ width: 354px;
 &:not(:nth-child(2n)) {
     margin-right: 30px;
 }
+
   }
  @media screen and (min-width: 1200px){
 width: 270px;
@@ -92,6 +94,7 @@ width: 270px;
 
  }
 }
+
 
 
 .antenna {
