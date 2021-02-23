@@ -16,57 +16,59 @@
 <body>
 
     <!--header conteiner -->
-    <header class="header">
-        <div class="conteiner header-conteiner">
-            <nav class="navigation">
-                <a href="" class="logo-header">Web<span style="color:black;">Studio</span> </a>
-                <ul class="site-nav list ">
-                    <li class="nav-item"> <a href="./index.html" class="link current">Студия</a></li>
-                    <li class="nav-item"> <a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li class="nav-item"> <a href="" class="link">Контакты</a> </li>
-                </ul>
-            </nav>
-            <!--webstudio-conteiner-contacts-->
-            <ul class="contacts-nav list ">
-    
-                <li class="nav-contact-link"> <a href="" class="contact-link mail"> <svg>
-                            <use href="./image/symbol-defs.svg#icon-envelope"></use>
-                        </svg>
-                        info@devstudio.com</a></li>
-                <li class="nav-contact-link "> <a href="" class="contact-link tel"><svg>
-                            <use href="./image/symbol-defs.svg#icon-phone"></use>
-                        </svg>
-                        +38 099 111 11 11</a> </li>
-    
+<header class="header">
+    <div class="conteiner ">
+        <nav class="navigation">
+            <a href="" class="logo-header">Web<span style="color:black;">Studio</span> </a>
+            <ul class="site-nav list ">
+                <li class="nav-item"> <a href="./index.html" class="link ">Студия</a></li>
+                <li class="nav-item"> <a href="./portfolio.html" class="link current">Портфолио</a></li>
+                <li class="nav-item"> <a href="" class="link">Контакты</a> </li>
             </ul>
-    
-            <button class="navigation__button" data-modal-open-burger>
-                <svg class="icon-burger">
-                    <use href="./image/menu-burger.svg#icon-burger-menu"></use>
+        </nav>
+        <!--webstudio-conteiner-contacts-->
+        <ul class="contacts-nav list ">
+
+            <li class="nav-contact-link"> <a href="" class="contact-link mail"> <svg>
+                        <use href="./image/symbol-defs.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+            <li class="nav-contact-link "> <a href="" class="contact-link tel"><svg>
+                        <use href="./image/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                    +38 099 111 11 11</a> </li>
+
+        </ul>
+
+        <button class="navigation__button" data-modal-open-burger>
+            <svg class="icon-burger">
+                <use href="./image/menu-burger.svg#icon-burger-menu"></use>
+            </svg>
+        </button>
+    </div>
+
+    <div class="burger-menu is-hidden " data-modal-burger>
+        <div class="modal-burger">
+
+            <button class="modal-close-burger" data-modal-close-burger>
+                <svg class="modal-close-icon" width="18" height="18">
+                    <use href="./image/symbol-defs.svg#icon-close-button-modal"></use>
                 </svg>
             </button>
-        </div>
-    
-        <div class="burger-menu is-hidden " data-modal-burger>
-            <div class="modal-burger">
-    
-                <button class="modal-close-burger" data-modal-close-burger>
-                    <svg class="modal-close-icon" width="18" height="18">
-                        <use href="./image/symbol-defs.svg#icon-close-button-modal"></use>
-                    </svg>
-                </button>
-                <form class="modal-burger-form">
-                    <ul class="form-list ">
-                        <li class="modal-nav"> <a href="./index.html" class="link-modal current">Студия</a></li>
-                        <li class="modal-nav"> <a href="./portfolio.html" class="link-modal">Портфолио</a></li>
-                        <li class="modal-nav"> <a href="" class="link-modal">Контакты</a> </li>
-                    </ul>
+            <form class="modal-burger-form">
+                <ul class="form-list ">
+                    <li class="modal-nav"> <a href="./index.html" class="link-modal current">Студия</a></li>
+                    <li class="modal-nav"> <a href="./portfolio.html" class="link-modal">Портфолио</a></li>
+                    <li class="modal-nav"> <a href="" class="link-modal">Контакты</a> </li>
+                </ul>
+                <div class="modal-test">
                     <ul class="form-list-nav ">
                         <li class="modal-nav-down"> <a href="" class=" tel">
                                 +38 099 111 11 11</a> </li>
                         <li class="modal-nav-down"> <a href="" class=" mail">
                                 info@devstudio.com</a></li>
                     </ul>
+
                     <ul class="form-links">
                         <li> <a href="">Instagram</a>
                         </li>
@@ -80,19 +82,20 @@
                             <a href="">LinkedIn</a>
                         </li>
                     </ul>
-                </form>
-    
-            </div>
-    
+                </div>
+            </form>
+
         </div>
-    
-    </header>
+
+    </div>
+
+</header>
 
     <main>
         <!--portfolio-buttons-->
 
         <section class="portfolio">
-            <div class="portfolio-conteiner">
+            <div class="conteiner">
 
                 <h1 class="title-work">Кнопки примеры работ</h1>
                 <ul class="list portfolio-button">
@@ -319,6 +322,8 @@
                 </button>
         </form>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/burger.js"></script>
 
 </footer>
 
