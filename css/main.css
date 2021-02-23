@@ -1458,22 +1458,22 @@ h3 {
   border-color: var(--accent-color);
 }
 
-.header {
+.header-portfolio {
   border-bottom: 1px solid #ECECEC;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.header .conteiner {
+.header-portfolio .conteiner {
   display: flex;
 }
 
-.header .conteiner .navigation {
+.header-portfolio .conteiner .navigation {
   display: flex;
   align-items: center;
 }
 
-.header .conteiner .navigation .logo-header {
+.header-portfolio .conteiner .navigation .logo-header {
   font-family: Raleway;
   font-weight: 700;
   font-size: 24px;
@@ -1484,17 +1484,17 @@ h3 {
   margin-right: 93px;
 }
 
-.header .conteiner .navigation .site-nav {
+.header-portfolio .conteiner .navigation .site-nav {
   display: none;
   justify-content: center;
   align-items: center;
 }
 
-.header .conteiner .navigation .site-nav .nav-item:not(:last-child) {
+.header-portfolio .conteiner .navigation .site-nav .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header .conteiner .navigation .site-nav .nav-item .link {
+.header-portfolio .conteiner .navigation .site-nav .nav-item .link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -1502,7 +1502,7 @@ h3 {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header .conteiner .navigation .site-nav .nav-item .link.current::after {
+.header-portfolio .conteiner .navigation .site-nav .nav-item .link.current::after {
   content: "";
   height: 4px;
   width: 100%;
@@ -1512,17 +1512,17 @@ h3 {
   bottom: 0;
 }
 
-.header .conteiner .contacts-nav {
+.header-portfolio .conteiner .contacts-nav {
   display: none;
   flex-direction: column;
   margin-left: auto;
 }
 
-.header .conteiner .contacts-nav .nav-contact-link:not(:last-child) {
+.header-portfolio .conteiner .contacts-nav .nav-contact-link:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.header .conteiner .contacts-nav .contact-link {
+.header-portfolio .conteiner .contacts-nav .contact-link {
   color: var(--primary-text-color);
   display: flex;
   font-weight: 500;
@@ -1532,15 +1532,15 @@ h3 {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header .conteiner .contacts-nav .contact-link:hover {
+.header-portfolio .conteiner .contacts-nav .contact-link:hover {
   color: var(--accent-color);
 }
 
-.header .conteiner .contacts-nav .contact-link:focus {
+.header-portfolio .conteiner .contacts-nav .contact-link:focus {
   color: var(--accent-color);
 }
 
-.header .conteiner .contacts-nav .mail {
+.header-portfolio .conteiner .contacts-nav .mail {
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
@@ -1549,22 +1549,22 @@ h3 {
   color: var(--primary-text-color);
 }
 
-.header .conteiner .contacts-nav .mail svg {
+.header-portfolio .conteiner .contacts-nav .mail svg {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.header .conteiner .contacts-nav .mail:hover svg {
+.header-portfolio .conteiner .contacts-nav .mail:hover svg {
   fill: var(--accent-color);
 }
 
-.header .conteiner .contacts-nav .mail:focus svg {
+.header-portfolio .conteiner .contacts-nav .mail:focus svg {
   fill: var(--accent-color);
 }
 
-.header .conteiner .contacts-nav .tel {
+.header-portfolio .conteiner .contacts-nav .tel {
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
@@ -1573,28 +1573,28 @@ h3 {
   color: var(--primary-text-color);
 }
 
-.header .conteiner .contacts-nav .tel svg {
+.header-portfolio .conteiner .contacts-nav .tel svg {
   width: 10px;
   height: 16px;
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.header .conteiner .contacts-nav .tel:hover svg {
+.header-portfolio .conteiner .contacts-nav .tel:hover svg {
   fill: var(--accent-color);
 }
 
-.header .conteiner .contacts-nav .tel:focus svg {
+.header-portfolio .conteiner .contacts-nav .tel:focus svg {
   fill: var(--accent-color);
 }
 
-.header .navigation__button {
+.header-portfolio .navigation__button {
   background-color: transparent;
   border: none;
   margin-left: auto;
 }
 
-.header .navigation__button .icon-burger {
+.header-portfolio .navigation__button .icon-burger {
   fill: black;
   width: 40px;
   height: 40px;
@@ -1870,9 +1870,9 @@ a.link-further {
   background-color: #FFFFFF;
   top: 0;
   left: 0;
-  transform: translate(-50%, -50%);
   border-radius: 4px;
   padding: 40px;
+  min-height: 600px;
 }
 
 .modal-close-burger {

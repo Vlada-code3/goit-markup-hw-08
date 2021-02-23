@@ -38,9 +38,10 @@
   // left: 50%;
   top: 0;
   left: 0;
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   border-radius: 4px;
   padding: 40px;
+  min-height: 600px;
 }
 
 .modal-close-burger {
