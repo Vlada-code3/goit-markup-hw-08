@@ -940,6 +940,7 @@ h3 {
 @media screen and (min-width: 768px) {
   .footer-block {
     display: flex;
+    padding-bottom: 60px;
   }
 }
 
@@ -965,7 +966,6 @@ h3 {
   .footer-conteiner {
     max-width: 768px;
     height: 100%;
-    padding-bottom: 60px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -993,6 +993,7 @@ h3 {
 @media screen and (min-width: 1200px) {
   .footer-nav {
     margin-right: 0px;
+    margin-bottom: 0px;
   }
 }
 

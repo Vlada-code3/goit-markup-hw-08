@@ -7,7 +7,7 @@
   }
   @media screen and (min-width: 768px){
     display: flex;
-    
+    padding-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px){
@@ -28,7 +28,6 @@
   @media screen and (min-width: 768px){
     max-width: 768px;
     height: 100%;
-    padding-bottom: 60px;
     flex-direction: row;
     flex-wrap: wrap;
   justify-content: space-around;
@@ -48,6 +47,7 @@ margin-right: 165px;
 }
  @media screen and (min-width: 1200px){
    margin-right: 0px;
+   margin-bottom: 0px;
 
   }
 }
