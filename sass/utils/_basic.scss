@@ -33,13 +33,6 @@ h3 {
   margin: 0;
 }
 .link {
-  &:hover {
-    color: var(--accent-color );
-    
-  }
-  &:focus {
-    color: var(--accent-color );
-  }
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
@@ -47,6 +40,14 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
   color: #212121;
+  &:hover {
+    color: var(--accent-color );
+    
+  }
+  &:focus {
+    color: var(--accent-color );
+  }
+  
 }
 .conteiner {
   width: 100%;

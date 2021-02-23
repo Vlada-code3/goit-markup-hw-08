@@ -1458,22 +1458,20 @@ h3 {
   border-color: var(--accent-color);
 }
 
-.header-portfolio {
+.header {
   border-bottom: 1px solid #ECECEC;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-.header-portfolio .conteiner {
+.header .conteiner {
   display: flex;
 }
 
-.header-portfolio .conteiner .navigation {
+.header .conteiner .navigation {
   display: flex;
   align-items: center;
 }
 
-.header-portfolio .conteiner .navigation .logo-header {
+.header .conteiner .navigation .logo-header {
   font-family: Raleway;
   font-weight: 700;
   font-size: 24px;
@@ -1484,17 +1482,17 @@ h3 {
   margin-right: 93px;
 }
 
-.header-portfolio .conteiner .navigation .site-nav {
+.header .conteiner .navigation .site-nav {
   display: none;
   justify-content: center;
   align-items: center;
 }
 
-.header-portfolio .conteiner .navigation .site-nav .nav-item:not(:last-child) {
+.header .conteiner .navigation .site-nav .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-portfolio .conteiner .navigation .site-nav .nav-item .link {
+.header .conteiner .navigation .site-nav .nav-item .link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -1502,7 +1500,7 @@ h3 {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-portfolio .conteiner .navigation .site-nav .nav-item .link.current::after {
+.header .conteiner .navigation .site-nav .nav-item .link.current::after {
   content: "";
   height: 4px;
   width: 100%;
@@ -1512,17 +1510,17 @@ h3 {
   bottom: 0;
 }
 
-.header-portfolio .conteiner .contacts-nav {
+.header .conteiner .contacts-nav {
   display: none;
   flex-direction: column;
   margin-left: auto;
 }
 
-.header-portfolio .conteiner .contacts-nav .nav-contact-link:not(:last-child) {
+.header .conteiner .contacts-nav .nav-contact-link:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.header-portfolio .conteiner .contacts-nav .contact-link {
+.header .conteiner .contacts-nav .contact-link {
   color: var(--primary-text-color);
   display: flex;
   font-weight: 500;
@@ -1532,15 +1530,15 @@ h3 {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-portfolio .conteiner .contacts-nav .contact-link:hover {
+.header .conteiner .contacts-nav .contact-link:hover {
   color: var(--accent-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .contact-link:focus {
+.header .conteiner .contacts-nav .contact-link:focus {
   color: var(--accent-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .mail {
+.header .conteiner .contacts-nav .mail {
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
@@ -1549,22 +1547,22 @@ h3 {
   color: var(--primary-text-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .mail svg {
+.header .conteiner .contacts-nav .mail svg {
   width: 16px;
   height: 12px;
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.header-portfolio .conteiner .contacts-nav .mail:hover svg {
+.header .conteiner .contacts-nav .mail:hover svg {
   fill: var(--accent-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .mail:focus svg {
+.header .conteiner .contacts-nav .mail:focus svg {
   fill: var(--accent-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .tel {
+.header .conteiner .contacts-nav .tel {
   display: flex;
   align-items: center;
   letter-spacing: 0.02em;
@@ -1573,28 +1571,28 @@ h3 {
   color: var(--primary-text-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .tel svg {
+.header .conteiner .contacts-nav .tel svg {
   width: 10px;
   height: 16px;
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.header-portfolio .conteiner .contacts-nav .tel:hover svg {
+.header .conteiner .contacts-nav .tel:hover svg {
   fill: var(--accent-color);
 }
 
-.header-portfolio .conteiner .contacts-nav .tel:focus svg {
+.header .conteiner .contacts-nav .tel:focus svg {
   fill: var(--accent-color);
 }
 
-.header-portfolio .navigation__button {
+.header .navigation__button {
   background-color: transparent;
   border: none;
   margin-left: auto;
 }
 
-.header-portfolio .navigation__button .icon-burger {
+.header .navigation__button .icon-burger {
   fill: black;
   width: 40px;
   height: 40px;
@@ -1912,22 +1910,17 @@ a.link-further {
   margin-top: 48px;
 }
 
-.modal-nav:not(:last-child) {
+.form-list .modal-nav:not(:last-child) {
   margin-bottom: 32px;
 }
 
-.modal-nav a {
-  display: inline-block;
-  transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .link-modal {
+  transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #212121;
 }
