@@ -1,5 +1,7 @@
 .header {
   border-bottom: 1px solid #ECECEC;
+  padding-left: 15px;
+    padding-right: 15px;
 .conteiner {
   display: flex;
   .navigation {
@@ -182,7 +184,10 @@
   }
 }
 }
-
+.main {
+  padding-right: 15px;
+    padding-left: 15px;
+}
 .portfolio {
   // padding-bottom: 94px;
   // padding-top: 94px;
