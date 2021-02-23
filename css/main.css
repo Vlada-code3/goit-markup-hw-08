@@ -930,6 +930,7 @@ h3 {
 
 .footer-block {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2F303A;
 }
 
@@ -953,7 +954,7 @@ h3 {
 
 .footer-conteiner {
   max-width: 480px;
-  height: 603px;
+  height: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;

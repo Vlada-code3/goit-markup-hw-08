@@ -1,6 +1,7 @@
 
 .footer-block {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2F303A;
   .color-logo {
     color: #FFFFFF;
@@ -18,7 +19,7 @@
 .footer-conteiner {
   // width: 1200px;
   max-width: 480px;
-  height: 603px;
+  height: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
