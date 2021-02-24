@@ -84,6 +84,20 @@
 
 }
 }
+.modal-item {
+  &:not(:last-child){
+  margin-bottom: 32px;}
+}
+.modal-link {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 0.02em;
+color: #212121;
+
+}
 .link-modal {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
   font-family: Roboto;
